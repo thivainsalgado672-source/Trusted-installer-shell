@@ -1,13 +1,12 @@
-# Trusted-installer-shell
-Launches a command prompt with trusted installer permissions. 
+# Trusted-installer-shell - minimum possible size
+Launches a command prompt with trusted installer permissions, but only 3.5 kb in size. 
 
 ### Build requirements:
 
-#### **MSVS C++ compiler (VS v17+)**
-#### **Windows SDK 8.1** 
+#### **MSVS C++ compiler (VS v18)**
+#### **Windows SDK 10** 
 
-
-
+I'll update the readme to compile this later, but basically, you have to do some voodoo shit in the project config to get it done properly. 
 
 **Don't run it on anything below Windows XP; Trusted Installer didn't exist back then.** 
 
